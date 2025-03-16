@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Експерименти з блоковою моделлю</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="blockinline.html">Блокові та інлайн елементи</a></li>
+            <li><a href="normalize.html">Нормалізація</a></li>
+            <li><a href="reset.html">Скидання стилів</a></li>
+            <li><a href="cssproperties.html">CSS властивості</a></li>
+            <li><a href="float.html">Float та clear</a></li>
+            <li><a href="overflow.html">Overflow</a></li>
+            <li><a href="positioning.html">Позиціонування</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <h1>Вивчення CSS властивостей</h1>
+
+        <div class="inline">Цей div стає інлайновим елементом</div>
+        <div class="inline">Тому другий div(теж інлайновий) можна розташувати поруч на тому самому рядку</div>
+
+        <span class="block">А цей span навпаки стає блоковим елементом</span>
+        <span class="block">Тому наступний span буде розташований під першим</span>
+
+        <p class="inline-block">Цей p інлайново-блоковий,</p>
+        <p class="inline-block">тобто елементи будуть розташовані в одному рядку як інлайнові,</p>
+        <p class="inline-block">але матимуть всі властивості відступів як і блокові</p>
+        
+        <h2>box-sizing застосовується в класі container, flex застосовується для навгації в тегі ul</h2>
+    </div>
+</main>
+</body>
+</html>

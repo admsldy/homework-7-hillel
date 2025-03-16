@@ -1,0 +1,174 @@
+body {
+    background-color: #c0d1c2;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 3px 200px;
+    box-sizing: border-box;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #013009;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+}
+
+a:hover {
+    background-color: #013009;
+    color: #c0d1c2;
+    border-radius: 10px;
+    padding: 25px 18px;
+    box-shadow: 0 0px 10px 0 rgba(1, 48, 9, 1);
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.accent {
+    color: #1c722a;
+    font-style: italic;
+}
+
+.box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    font-size: 24px;
+}
+
+.box img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #013009;
+}
+
+.box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+.box a {
+    padding: 10px;
+}
+
+.inline {
+    display: inline;
+    margin: 20px;
+}
+
+.block{
+    display: block;
+    margin: 20px 0;
+}
+
+.inline-block{
+    display: inline-block;
+    margin: 30px;
+}
+
+.left {
+    float: left;
+    background-color: #013009;
+    color: #c0d1c2;
+    margin: 0 20px;
+}
+
+.right {
+    float: right;
+    background-color: #c0d1c2;
+    color: #013009;
+    margin: 20px;
+}
+
+.clear-left {
+    clear: left;
+    background-color: #c0d1c2;
+    padding: 20px 0;
+}
+
+.overflow {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.hidden, .scroll, .auto, .scroll-img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.hidden {
+    overflow: hidden;
+    background-color:#c0d1c2;
+}
+
+.scroll {
+    overflow-y: scroll;
+    background-color: #f7efd5;
+}
+
+.auto {
+    overflow: auto;
+    background-color: #f7d5d5;
+}
+
+.scroll-img {
+    overflow: scroll;
+}
+
+.static {
+    position: static;
+    background-color: #c0d1c2;
+}
+
+.relative {
+    position: relative;
+    left: 100px;
+    background-color: #f7efd5;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    background-color: #f7d5d5;
+    
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
+    z-index: 4;
+    background-color: #c1c6d6;
+}
